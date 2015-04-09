@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TipperViewController.h
 //  Tipper
 //
 //  Created by Wesley Haines on 1/17/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TipperViewController : UIViewController
 
 @end
-

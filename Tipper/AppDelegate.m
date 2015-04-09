@@ -7,16 +7,26 @@
 //
 
 #import "AppDelegate.h"
-
-@interface AppDelegate ()
-
-@end
+#import "TipperViewController.h"
 
 @implementation AppDelegate
 
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+{
+    
+    self.window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
+    
+    UIStoryboard *stroyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    UINavigationController *navVC = [stroyboard instantiateInitialViewController];
+    
+    self.window.rootViewController = navVC;
+    
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

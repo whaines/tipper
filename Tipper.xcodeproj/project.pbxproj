@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		5AFA3FF31A6AE2450054959B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA3FF21A6AE2450054959B /* main.m */; };
 		5AFA3FF61A6AE2450054959B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA3FF51A6AE2450054959B /* AppDelegate.m */; };
-		5AFA3FF91A6AE2450054959B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA3FF81A6AE2450054959B /* ViewController.m */; };
 		5AFA3FFC1A6AE2450054959B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AFA3FFA1A6AE2450054959B /* Main.storyboard */; };
 		5AFA3FFE1A6AE2450054959B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AFA3FFD1A6AE2450054959B /* Images.xcassets */; };
 		5AFA40011A6AE2450054959B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AFA3FFF1A6AE2450054959B /* LaunchScreen.xib */; };
 		5AFA400D1A6AE2450054959B /* TipperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA400C1A6AE2450054959B /* TipperTests.m */; };
+		5AFA401D1A6AF17D0054959B /* TipperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA401C1A6AF17D0054959B /* TipperViewController.m */; };
+		5AFF45631AD60ED90023F56F /* Shape.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF45621AD60ED90023F56F /* Shape.png */; };
+		5AFF45651AD61CB20023F56F /* Shape.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF45641AD61CB20023F56F /* Shape.png */; };
+		5AFF456E1AD6245E0023F56F /* tipper_spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF456C1AD6245E0023F56F /* tipper_spotlight.png */; };
+		5AFF456F1AD6245E0023F56F /* tipper_appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF456D1AD6245E0023F56F /* tipper_appIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,18 @@
 		5AFA3FF21A6AE2450054959B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5AFA3FF41A6AE2450054959B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5AFA3FF51A6AE2450054959B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5AFA3FF71A6AE2450054959B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5AFA3FF81A6AE2450054959B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5AFA3FFB1A6AE2450054959B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AFA3FFD1A6AE2450054959B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5AFA40001A6AE2450054959B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5AFA40061A6AE2450054959B /* TipperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AFA400B1A6AE2450054959B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AFA400C1A6AE2450054959B /* TipperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipperTests.m; sourceTree = "<group>"; };
+		5AFA401B1A6AF17D0054959B /* TipperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipperViewController.h; sourceTree = "<group>"; };
+		5AFA401C1A6AF17D0054959B /* TipperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipperViewController.m; sourceTree = "<group>"; };
+		5AFF45621AD60ED90023F56F /* Shape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Shape.png; path = ../../../../Shape.png; sourceTree = "<group>"; };
+		5AFF45641AD61CB20023F56F /* Shape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shape.png; sourceTree = "<group>"; };
+		5AFF456C1AD6245E0023F56F /* tipper_spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tipper_spotlight.png; sourceTree = "<group>"; };
+		5AFF456D1AD6245E0023F56F /* tipper_appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tipper_appIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,9 @@
 				5AFA3FEF1A6AE2450054959B /* Tipper */,
 				5AFA40091A6AE2450054959B /* TipperTests */,
 				5AFA3FEE1A6AE2450054959B /* Products */,
+				5AFF45641AD61CB20023F56F /* Shape.png */,
+				5AFF456C1AD6245E0023F56F /* tipper_spotlight.png */,
+				5AFF456D1AD6245E0023F56F /* tipper_appIcon.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,12 +94,12 @@
 			children = (
 				5AFA3FF41A6AE2450054959B /* AppDelegate.h */,
 				5AFA3FF51A6AE2450054959B /* AppDelegate.m */,
-				5AFA3FF71A6AE2450054959B /* ViewController.h */,
-				5AFA3FF81A6AE2450054959B /* ViewController.m */,
 				5AFA3FFA1A6AE2450054959B /* Main.storyboard */,
 				5AFA3FFD1A6AE2450054959B /* Images.xcassets */,
 				5AFA3FFF1A6AE2450054959B /* LaunchScreen.xib */,
 				5AFA3FF01A6AE2450054959B /* Supporting Files */,
+				5AFA401B1A6AF17D0054959B /* TipperViewController.h */,
+				5AFA401C1A6AF17D0054959B /* TipperViewController.m */,
 			);
 			path = Tipper;
 			sourceTree = "<group>";
@@ -96,6 +107,7 @@
 		5AFA3FF01A6AE2450054959B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5AFF45621AD60ED90023F56F /* Shape.png */,
 				5AFA3FF11A6AE2450054959B /* Info.plist */,
 				5AFA3FF21A6AE2450054959B /* main.m */,
 			);
@@ -200,8 +212,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AFA3FFC1A6AE2450054959B /* Main.storyboard in Resources */,
+				5AFF45631AD60ED90023F56F /* Shape.png in Resources */,
+				5AFF456E1AD6245E0023F56F /* tipper_spotlight.png in Resources */,
 				5AFA40011A6AE2450054959B /* LaunchScreen.xib in Resources */,
+				5AFF456F1AD6245E0023F56F /* tipper_appIcon.png in Resources */,
 				5AFA3FFE1A6AE2450054959B /* Images.xcassets in Resources */,
+				5AFF45651AD61CB20023F56F /* Shape.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AFA3FF91A6AE2450054959B /* ViewController.m in Sources */,
+				5AFA401D1A6AF17D0054959B /* TipperViewController.m in Sources */,
 				5AFA3FF61A6AE2450054959B /* AppDelegate.m in Sources */,
 				5AFA3FF31A6AE2450054959B /* main.m in Sources */,
 			);
@@ -343,9 +359,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Tipper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -353,9 +372,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Tipper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -412,6 +434,7 @@
 				5AFA40121A6AE2450054959B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AFA40131A6AE2450054959B /* Build configuration list for PBXNativeTarget "TipperTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +443,7 @@
 				5AFA40151A6AE2450054959B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
